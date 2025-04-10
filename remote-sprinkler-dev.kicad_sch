@@ -2643,10 +2643,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "XSTR:DMHC3025LSD-13"
+		(symbol "XSR:DMHC3025LSD-13"
 			(pin_names
 				(offset 0.254)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2694,6 +2693,14 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "DMHC3025LSD-13"
@@ -8008,7 +8015,7 @@
 		)
 	)
 	(symbol
-		(lib_id "XSTR:DMHC3025LSD-13")
+		(lib_id "XSR:DMHC3025LSD-13")
 		(at 175.26 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
