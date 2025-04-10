@@ -2643,15 +2643,16 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "XSR:DMHC3025LSD-13"
+		(symbol "XTR:DMHC3025LSD-13"
 			(pin_names
 				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 17.018 -18.796 0)
+				(at 12.7 10.16 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -2659,7 +2660,7 @@
 				)
 			)
 			(property "Value" "DMHC3025LSD-13"
-				(at 26.924 -21.082 0)
+				(at 28.702 4.064 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -2667,7 +2668,7 @@
 				)
 			)
 			(property "Footprint" "soic127p610x495-8n"
-				(at 2.54 6.35 0)
+				(at 22.86 8.636 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2677,7 +2678,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMHC3025LSD.pdf"
-				(at 15.748 13.462 0)
+				(at 26.924 6.604 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2686,7 +2687,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Dual N/P Channel 30 V 25 mO 11.7 nC H-Bridge Power Mosfet - SOIC-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2695,15 +2696,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "DMHC3025LSD-13"
+			(property "ki_keywords" "Transistor Array Bridge"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8015,7 +8008,7 @@
 		)
 	)
 	(symbol
-		(lib_id "XSR:DMHC3025LSD-13")
+		(lib_id "XTR:DMHC3025LSD-13")
 		(at 175.26 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8042,7 +8035,7 @@
 			)
 		)
 		(property "Footprint" "soic127p610x495-8n"
-			(at 177.8 67.31 0)
+			(at 175.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8052,7 +8045,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMHC3025LSD.pdf"
-			(at 191.008 60.198 0)
+			(at 175.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8061,7 +8054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual N/P Channel 30 V 25 mO 11.7 nC H-Bridge Power Mosfet - SOIC-8"
 			(at 175.26 73.66 0)
 			(effects
 				(font
@@ -8906,7 +8899,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f3a05cea-41e7-45a7-af2e-bbb5d71fbb3a")
 		(property "Reference" "R1"
 			(at 176.53 115.5699 0)
@@ -9034,6 +9026,48 @@
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
 					(reference "C2")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 21.59)
+		(size 36.83 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a555593b-ce46-4cba-8dae-6bdb993fc241")
+		(property "Sheetname" "Voltage Booster"
+			(at 179.07 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "voltage-boost.kicad_sch"
+			(at 179.07 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "remote-sprinkler-dev"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
+					(page "2")
 				)
 			)
 		)

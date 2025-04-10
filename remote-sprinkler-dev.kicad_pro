@@ -613,6 +613,10 @@
     [
       "da5a1e6a-2605-436b-a30c-1027586d5c0a",
       "Root"
+    ],
+    [
+      "a555593b-ce46-4cba-8dae-6bdb993fc241",
+      "Voltage Booster"
     ]
   ],
   "text_variables": {}
